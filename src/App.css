@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+  font-style: sans-serif;
+}
+.homepage-bgimage {
+  background: url("https://storage.123fakturere.no/public/wallpapers/geiranger.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  object-position: center center;
+  overflow-y: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ContentConatiner{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: white;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.ContentConatiner p{
+  font-size: 14px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-right: 50px;
+/* text-align: justify; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* for hidden the scroller  */
+.homepage-bgimage::-webkit-scrollbar {
+  width: 0px;
 }
+
+
+/* .homepage-bgimage::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 4px; 
+}
+
+.homepage-bgimage::-webkit-scrollbar-track {
+  background-color: #f0f0f0; 
+} */
+
+
+

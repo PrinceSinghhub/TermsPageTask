@@ -1,0 +1,22 @@
+.custom-button {
+    height: 50px;
+    width: 13.5rem;
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 20px; /* Rounder border */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+    font-size: 1.2rem;
+  }
+
+
+  .FooterMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
